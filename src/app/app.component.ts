@@ -9,6 +9,19 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent {
-  title = 'assign_7_4';
+export class AppComponent
+{
+  public upper : string="";
+  public lower : string="";
+
+  public UpperFun()
+  {
+   this.upper = "MARVELLOUS INFOSYSTEM";
+  }
+
+  public LowerFun()
+  {
+   this.lower = "marvellous infosystem";
+  }
+
 }
